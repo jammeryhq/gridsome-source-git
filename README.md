@@ -1,13 +1,23 @@
-# gridsome-source-git
+<div align="center">
 
-Source plugin for fetching data from a GIT repository.
-This source is based on the `@gridsome/source-filesystem` and includes
-all functionality which is available in the `@gridsome/source-filesystem`.
+<a href="https://www.jammeryhq.com" title="JammeryHQ" target="_blank">
 
-This is a port from Gatsby: https://github.com/stevetweeddale/gatsby-source-git
-But extended to enable the clone of private git repositories.
+  <img src="./jammeryhq.png" width="128" />
+  
+</a>
 
-## Install
+<p>
+Fast-track your JAMstack development & learning
+</p>
+</div>
+
+<hr />
+
+# About this plugin
+
+Gridsome source to fetch data from a remote git repository.
+
+## Installation
 
 ```bash
 npm install --s @noxify/gridsome-source-git
@@ -16,6 +26,8 @@ npm install --s @noxify/gridsome-source-git
 ## How to use
 
 ```js
+//gridsome.config.js
+
 module.exports = {
   plugins: [
     {
@@ -34,3 +46,8 @@ module.exports = {
 ## Documentation
 
 You can find the complete documentation here: https://webstone.info/documentation/gridsome-source-git
+
+## Credits
+
+This is a port from Gatsby: https://github.com/stevetweeddale/gatsby-source-git
+But extended to enable the clone of private git repositories.
